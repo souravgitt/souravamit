@@ -1,0 +1,24 @@
+.edit_button {
+    color: #b4b4b4;
+    padding: 5px;
+}
+.edit_button:hover {
+    color: #048c18;
+    text-decoration: none;
+}
+.user_p_button {
+    color: #b4b4b4;
+    padding: 5px;
+}
+.user_p_button:hover {
+    color: #0686ff;
+    text-decoration: none;
+}
+.delete_button {
+    color: #b4b4b4;
+    padding: 5px;
+}
+.delete_button:hover, .delete_button:focus {
+    color: #ff1010;
+    text-decoration: none;
+}

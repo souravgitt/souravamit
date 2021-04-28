@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', "Arial", sans-serif;
+    color: #333333;
+    font-size: 14px;
+    background: #f2f3f8;
+    position: relative;
+}
+
+.login_main {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("../images/bg.png") center bottom no-repeat;
+    background-size: 100% 100%;
+}
+
+.login-form {
+    background-color: #dddddd;
+    width: 480px;
+    padding: 17px 76px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.login-form .form-group {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    padding: 5px 8px;
+    margin-bottom: 15px;
+}
+
+.login-form .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.login-form .form-control {
+    box-shadow: none;
+    border: none;
+    height: auto;
+}
+
+.keyboard-section {
+    background-color: transparent !important;
+    padding: 0;
+    margin-left: -68px;
+    margin-right: -68px;
+    margin-bottom: 15px;
+}
+
+.hg-theme-default .hg-button {
+    height: 30px;
+}
+
+.login-form .form-group select {
+    padding: 8px 12px;
+}
+
+.form-ele-mdfy {
+    background-color: transparent !important;
+    margin-top: -20px;
+}
+
+.form-ele-mdfy > div {
+    justify-content: space-between;
+    flex: 1;
+}
+
+.form-group .field_icon {
+  padding-right: 6px;
+}
+
+.form-group .field_icon img {
+    width: 90%;
+    margin-right: 5px;
+    transform: translate(2px, 4px);
+}
+
+.form-element-field {
+    display: block;
+    padding: 0;
+    background: none;
+    color: #333333;
+}
+
+.app-logo img {
+    margin: 0 auto 17px;
+}
+
+.forgot-text a {
+    color: #840000;
+    text-align: right;
+    display: block;
+    font-weight: 500;
+}
+
+.login_button {
+    background-image: linear-gradient(45deg, #bc0907, #741e1e);
+    border: none;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 9px 55px;
+}
+
+@media(max-width:767px) {
+    .keyboard-section {
+        display: none !important;
+    }
+
+    .login-form .form-group {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:600px) {
+    .login-form {
+      padding: 30px 15px;
+      width: 90%;
+    }
+    .app-logo img {
+        margin: 0 auto 40px;
+    }
+}
